@@ -25,14 +25,14 @@ return list
 
 Full code:
 
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        countDict = {}
-        for i in nums:
-            countDict[i] = countDict.get(i, 0) + 1
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+	countDict = {}
+	for i in nums:
+	    countDict[i] = countDict.get(i, 0) + 1
 			
-        countDict = sorted(countDict, key=countDict.get, reverse = True)
-        listK = []
-        for counter, i in enumerate(countDict):
-            if counter < k:
-                listK.append(i)
-        return listK
+	countDict = sorted(countDict, key=countDict.get, reverse = True)
+	listK = []
+	for counter, i in enumerate(countDict):
+	    if counter < k:
+		listK.append(i)
+	return listK
