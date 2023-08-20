@@ -17,12 +17,6 @@ create a hashmap that counts the occurence of each element
 	for i in nums:
 		 dictionary[nums[i]] = dictionary.get(nums[i], 0) + 1
 
-sort the dictionary using by value using sorted(d, key = d.get, reverse = True)
-makes the dictionary sort by the max occurences first
-
-create empty list and append the k most commonly occuring values to it
-return list
-
 Full code:
 
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -36,3 +30,11 @@ Full code:
 	    if counter < k:
 		listK.append(i)
 	return listK
+
+code explanation:
+
+sort the dictionary using by value using sorted(d, key = d.get, reverse = True)
+makes the dictionary sort by the max occurences first
+
+create empty list and append the k most commonly occuring values to it
+return list
