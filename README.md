@@ -1,4 +1,4 @@
-code and notes of my personal work on the neetcode roadmap
+code and notes of my personal work on the neetcode. 
 methodology:
   i follow the roadmap set out in https://neetcode.io/roadmap
   aiming to solve at minimum one problem a day whenever possible
