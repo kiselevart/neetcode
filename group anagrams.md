@@ -15,7 +15,7 @@ rough code
 	for i in dict:
 		print(dict[i])
 
-first leetcode problem i solved on my own!
+im a fucking genius beast! first leetcode problem i solved on my own
 
 full code:
 
